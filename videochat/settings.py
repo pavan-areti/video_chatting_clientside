@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'django-insecure-21jdls=wr##2aq9uv_wgvf7%22=ss9$l%)k*h7okv^zwlpzwj!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web-video-calling.herokuapp.com','127.0.0.1']
 
 
 # Application definition
