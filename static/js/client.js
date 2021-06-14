@@ -376,7 +376,7 @@ function openDataChannel(){
   }
   datachannel.onclose = function(){
     console.log("data channel is closed");
-    window.location.replace("http://"+window.location.hostname+":"+window.location.port+"/");
+    window.location.replace("https://"+window.location.hostname+":"+window.location.port+"/");
   }
 
 }
