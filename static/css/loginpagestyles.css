@@ -1,0 +1,60 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+height:100%;
+width:100%;
+background-color: #0093E9;
+}
+.first-half{
+  background-image:url('../images/exposys_logo.png');
+  height:100%;
+  width:50%;
+  background-size: cover;
+  top:0;
+  left:0;
+}
+.second-half{
+  height:100%;
+  width:50%;
+  z-index:1;
+  background-color:black;
+  position:absolute;
+  right:0;
+  top:0;
+}
+.heading h1{
+  color:white;
+  font-size: 2rem;
+}
+.second-half-body{
+  height:100%;
+  flex-direction: column;
+  align-items:center;
+}
+.login{
+  margin:50px 20px 50px 20px;
+}
+.btn{
+  margin:30px 10px 0 0px;
+  width:100%;
+}
+.heading{
+  margin-top:30px;
+}
+.form-control{
+  text-align:center;
+}
+.container{
+  width:60%;
+  height:80vh;
+  margin: auto;
+  margin-top:50px;
+  background-color:black;
+  border-radius: 30px;
+  /* padding : 10px; */
+  overflow:hidden;
+  position:relative;
+}
